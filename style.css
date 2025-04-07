@@ -1,0 +1,32 @@
+*{
+    font-family: "DM Mono", monospace;
+}
+#main-content{
+    padding: 2rem;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(107, 105, 105);
+}
+
+#title{
+    display: flex;
+    width: 100%;
+    background-color: white;
+    border-radius: .5rem;
+    justify-content: center;
+    padding: .5rem;
+}
+#cards-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.card{
+    width: 18rem;
+}
+.card-header, .card-footer{
+    display: flex;
+    justify-content: space-between;
+}
